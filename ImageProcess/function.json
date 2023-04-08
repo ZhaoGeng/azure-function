@@ -1,0 +1,18 @@
+{
+  "bindings": [
+    {
+      "name": "inBlob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "input-image/{name}",
+      "connection": "ditranstorage_STORAGE"
+    },
+    {
+      "name": "outBlob",
+      "type": "blob",
+      "direction": "out",
+      "path": "output-image/{name}",
+      "connection": "ditranstorage_STORAGE"
+    }
+  ]
+}
